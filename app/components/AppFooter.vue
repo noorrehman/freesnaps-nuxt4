@@ -1,6 +1,6 @@
 <template>
   <div class="text-center ">
-    <h2 class="text-3xl font-bold text-orange-500">This my Footer</h2>
+    <h2 class="text-xl text-gray-800">Footer goes here!</h2>
   </div>
 </template>
 <script setup lang="ts">

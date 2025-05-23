@@ -1,11 +1,11 @@
 <template>
-  <div class="text-center py-12">
-    <h2 class="text-3xl font-bold text-sky-500">This my Home Page</h2>
+  <div class="text-center text-xl py-12 font-bold text-lime-500">
+    <p>Home page</p>
   </div>
+
 </template>
 
 <script setup lang="ts">
-
 
 
 </script>
