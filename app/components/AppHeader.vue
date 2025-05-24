@@ -1,7 +1,6 @@
 <template>
-  <div class="w-full">
-    <nav>
-      <header class="flex flex-grow max-w-6xl mx-auto justify-between w-full py-2 items-center px-2">
+    <header class="w-full">
+      <nav class="max-w-7xl mx-auto flex justify-between py-2 items-center px-2">
         <!-- Mobile Menu Button -->
         <div class="md:hidden">
           <UButton :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" color="neutral" variant="ghost"
@@ -32,8 +31,8 @@
   </svg>
             </NuxtLink>
           </div>
-          <div class="hidden md:block flex-grow">
-            <UNavigationMenu :items="items" :ui="{ link: 'text-lg font-normal text-stone-700' }"
+          <div class="hidden md:block ">
+            <UNavigationMenu :items="items" :ui="{ link: 'text-lg font-normal text-stone-700', childLinkLabel: 'text-md font-normal text-stone-700' }"
                              arrow class="w-full " color="neutral"
                              content-orientation="vertical"
                              orientation="horizontal"
@@ -49,7 +48,7 @@
         </svg>
           </NuxtLink>
         </div>
-      </header>
+      </nav>
       <!-- Mobile: Vertical Menu -->
       <transition name="fade">
         <div v-if="isMobileMenuOpen" class="md:hidden px-2">
@@ -61,9 +60,9 @@
           />
         </div>
       </transition>
-<!-- NextDayShipping-->
+      <!-- NextDayShipping-->
       <div class="bg-[#ee9831] h-[40px] lg:h-[40px] flex items-center">
-        <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
+        <div class="max-w-7xl mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
           <p class="text-base font-medium flex items-center space-x-2 text-white">
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.1em" viewBox="0 0 640 512"><path fill="currentColor" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z"/></svg>
@@ -72,7 +71,7 @@
           </p>
         </div>
       </div>
-<!--      Countdown -->
+      <!--  Countdown -->
       <div class="bg-pink-600 h-[40px] lg:h-[40px] flex items-center">
         <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
           <p class="text-sm">
@@ -88,9 +87,7 @@
           </p>
         </div>
       </div>
-    </nav>
-
-  </div>
+    </header>
 </template>
 
 
