@@ -1,0 +1,16 @@
+export declare type Coupon = {
+    id: number,
+    code: string,
+    amount: string,
+    status: string,
+    discount_type: string,
+    description: string,
+    date_expires?: Date,
+    individual_use: boolean,
+    product_ids?: [],
+    excluded_product_ids?: [],
+    product_categories?: [],
+    excluded_product_categories?: [],
+    minimum_amount: string,
+    maximum_amount: string,
+}

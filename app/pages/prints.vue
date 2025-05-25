@@ -5,7 +5,7 @@
         <NuxtImg class="w-full object-cover h-full"
                  src="images/prints/prints-header.webp" alt="Freesnaps prints"/>
       </div>
-      <div class="bg-dark-blue px-2.5 py-2 text-white text-center lg:flex-1 lg:flex lg:flex-col lg:justify-center lg:px-16 xl:w-[36%] xl:px-10">
+      <div class="bg-[#4b5566] px-2.5 py-2 text-white text-center lg:flex-1 lg:flex lg:flex-col lg:justify-center lg:px-16 xl:w-[36%] xl:px-10">
         <h2 class="text-xl font-bold leading-9 lg:text-3xl lg:leading-[50px]">{{('mix & match')}}</h2>
         <h1 class="text-3xl font-extrabold lg:my-2.5 leading-9 lg:text-5xl lg:leading-[50px]">{{('Your sizes')}}</h1>
         <h3 class="text-xl font-bold leading-9 lg:text-3xl lg:leading-[50px]">{{('to get best value')}}</h3>
@@ -69,7 +69,7 @@
       <WhyChooseUs />
     </div>
 
-    <div class="bg-dark-blue mt-8">
+    <div class="bg-[#4b5566] mt-8">
       <div class="mx-auto p-5 lg:px-28">
         <h3 class="text-center text-white text-xl mt-2 mb-4">How to order with FreeSnaps</h3>
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-5">
