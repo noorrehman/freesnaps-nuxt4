@@ -1,9 +1,7 @@
 <template>
-  <div class="">
-    <AppHeader />
-      <slot />
-    <AppFooter />
-  </div>
+  <HeaderMain />
+  <slot />
+  <FooterMain />
 </template>
 
 <script setup lang="ts">

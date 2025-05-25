@@ -2,8 +2,8 @@
     <header class="w-full">
       <nav class="max-w-7xl mx-auto flex justify-between py-2 items-center px-2">
         <!-- Mobile Menu Button -->
-        <div class="md:hidden">
-          <UButton :icon="isMobileMenuOpen ? 'i-lucide-x' : 'i-lucide-menu'" color="neutral" variant="ghost"
+        <div class="lg:hidden">
+          <UButton :icon="isMobileMenuOpen ? 'i-heroicons-x-mark-20-solid' : 'i-heroicons-bars-3-16-solid'" color="neutral" variant="ghost"
                    @click="toggleMenu" size="xl"
           />
         </div>
@@ -31,7 +31,7 @@
   </svg>
             </NuxtLink>
           </div>
-          <div class="hidden md:block ">
+          <div class="hidden lg:block ">
             <UNavigationMenu :items="items" :ui="{ link: 'text-lg font-normal text-stone-700', childLinkLabel: 'text-md font-normal text-stone-700' }"
                              arrow class="w-full " color="neutral"
                              content-orientation="vertical"
@@ -51,7 +51,7 @@
       </nav>
       <!-- Mobile: Vertical Menu -->
       <transition name="fade">
-        <div v-if="isMobileMenuOpen" class="md:hidden px-2">
+        <div v-if="isMobileMenuOpen" class="lg:hidden px-2">
           <UNavigationMenu :items="items" :ui="{ link: 'text-lg font-normal' }"
                            arrow class="data-[orientation=vertical]:w-min"
                            color="neutral"

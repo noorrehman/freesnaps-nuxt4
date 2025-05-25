@@ -4,8 +4,13 @@
       arrows loop
       :autoplay="{ delay: 3000 }"
       :items="items"
-      :ui="{ item: 'basis-full', container:'space-x-2 mr-2' }"
-      class="w-full max-w-xl mx-auto"
+      :ui="{ item: 'basis-full',container: 'transition-[width]', controls: 'absolute top-8 -inset-x-15',  }"
+      class="w-full max-w-xs lg:max-w-3xl mx-auto"
+      :next="{ variant: 'solid'}"
+      :prev="{ variant: 'solid'}"
+      :prev-icon="prevIcon"
+      :next-icon="nextIcon"
+
   >
     <div class="w-full mx-4 flex items-center justify-center">
       <div>
@@ -17,7 +22,10 @@
 </template>
 
 <script setup lang="ts">
-
+defineProps<{
+  prevIcon?: string
+  nextIcon?: string
+}>()
 
 const items = [
   {

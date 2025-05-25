@@ -1,7 +1,10 @@
 <template>
   <div class="mt-4 mb-8">
     <div class="lg:hidden">
-      <UNavigationMenu orientation="vertical" arrow :items="items" class="w-full" />
+      <UNavigationMenu orientation="vertical"  arrow :items="items" class="w-full"
+                       :ui="{ link: 'text-lg font-normal text-stone-700', childLinkLabel: 'text-md font-normal text-stone-700' }"
+
+      />
     </div>
 
     <div class="hidden lg:flex lg:justify-between lg:text-center">
