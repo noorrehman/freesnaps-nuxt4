@@ -1,6 +1,6 @@
 
 <template>
-  <div class="max-w-7xl mx-auto mt-4">
+  <UContainer class=" mt-4">
     <h2 class="text-center text-lg font-semibold">Key Benefits of using Freesnaps</h2>
 
     <div class="mt-6 max-w-[500px] lg:max-w-full mx-auto">
@@ -15,7 +15,7 @@
       </ul>
     </div>
 
-  </div>
+  </UContainer>
 </template>
 <script setup lang="ts">
 const benefits = ref([
