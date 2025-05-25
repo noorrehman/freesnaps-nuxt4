@@ -11,4 +11,19 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  image: {
+    provider: process.env.PROVIDER,
+    cloudinary: {
+      baseURL: 'https://freesnaps.s3.eu-north-1.amazonaws.com/web/front_web_images'
+    },
+    providers: {
+      s3Provider: {
+        name: 's3Provider',
+        provider: '~/providers/s3-provider.ts',
+        options: {
+          baseURL: "https://freesnaps.s3.eu-north-1.amazonaws.com/web/front_web_images"
+        }
+      }
+    }
+  },
 })
