@@ -1,6 +1,6 @@
 <template>
   <div :class="`${textColor} ${bgColor} py-4 border-t border-gray-200`">
-    <div class="max-w-7xl mx-auto flex items-center justify-around space-x-4 lg:text-base">
+    <UContainer class=" flex items-center justify-around space-x-4 lg:text-base">
       <div class="text-center">
         <UIcon name="i-heroicons-face-smile" class="text-3xl lg:text-4xl" />
         <h5><strong>Over 100’000</strong></h5>
@@ -11,7 +11,7 @@
         <h5><strong>Over 1 Million</strong></h5>
         <h6 :class="highlightColor">Orders Shipped</h6>
       </div>
-    </div>
+    </UContainer>
   </div>
 </template>
 

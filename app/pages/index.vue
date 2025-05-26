@@ -3,11 +3,11 @@
     <HeroSectionFreePrints />
     <HomePromotion />
 
-    <div class="container mx-auto p-2 mt-4">
+    <div class=" p-2 mt-4">
       <TrustPilot />
     </div>
 
-    <div class="container mx-auto p-3 mb-6">
+    <div class=" p-3 mb-6">
       <KeyBenefits />
     </div>
 

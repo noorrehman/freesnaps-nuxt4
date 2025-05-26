@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[url('/images/home/header_bg.webp')] bg-no-repeat bg-center bg-cover flex items-center justify-center">
-    <div class="max-w-7xl text-center flex flex-1 lg:flex-row flex-col-reverse items-center ">
+    <UContainer class=" text-center flex flex-1 lg:flex-row flex-col-reverse items-center ">
       <div class="lg:w-full">
         <NuxtImg
             class="w-full"
@@ -31,7 +31,7 @@
           </NuxtLink>
         </div>
       </div>
-    </div>
+    </UContainer>
   </div>
 </template>
 

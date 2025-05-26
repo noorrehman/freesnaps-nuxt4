@@ -1,6 +1,6 @@
 <template>
   <div class="bg-pink-600 h-[40px] lg:h-[40px] flex items-center">
-    <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
+    <UContainer class=" px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
       <!--      <p class="text-sm">-->
       <!--        Order within <strong class="font-semibold">{{ formattedCountdown }} minutes</strong> to receive it within 1 to 2 days.-->
       <!--      </p>-->
@@ -8,14 +8,14 @@
         Order over <strong class="font-bold">£{{discountCouponMinimumAmount}}</strong> get <strong class="font-bold">20%</strong> off - See at checkout
       </p>
 
-    </div>
+    </UContainer>
   </div>
   <div class="bg-pink-600 h-[40px] lg:h-[40px] flex items-center">
-    <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
+    <UContainer class=" px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
       <p class="text-center font-normal">
         <strong>Offer ends <span class="underline">{{getTomorrowDate()}}</span></strong>
       </p>
-    </div>
+    </UContainer>
   </div>
 
 </template>

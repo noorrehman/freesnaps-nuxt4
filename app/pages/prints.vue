@@ -29,41 +29,43 @@
         </div>
     </div> -->
 
-    <div class="max-w-7xl mx-auto px-5 my-4 lg:my-6">
-      <h2 class="text-xl text-center">Choose a print size below to get started</h2>
-    </div>
+    <UContainer>
+      <div class="  my-4 lg:my-6">
+        <h2 class="text-xl text-center">Choose a print size below to get started</h2>
+      </div>
 
-    <div class="max-w-7xl mx-auto px-5 mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
-      <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4" v-for="product in products" :key="product.title">
-        <h3 class="text-[22px] font-light leading-9 flex items-center space-x-2">
-          <NuxtLink :to="product.link" :aria-description="product.title"><span>{{ product.title }}</span></NuxtLink>
-          <UBadge v-if="product.promotion" color="primary" class="bg-red-500" variant="solid">{{ product.promotion }}
-          </UBadge>
-        </h3>
-        <div class="lg:flex lg:flex-row-reverse">
-          <div class="lg:ml-4 w-full h-64 lg:w-[220px] lg:h-[150px]">
-            <NuxtLink :to="product.link" class="w-full" :aria-description="product.title">
-              <NuxtImg :src="product.image" class="object-cover h-64 mt-3 lg:w-[220px] lg:h-[140px]" provider="s3Provider" :alt="product.title"/>
-            </NuxtLink>
-          </div>
-          <div class="flex-1">
-            <p class="text-sm text-dim-gray font-extralight mt-6 lg:mt-2">Select a size continue:</p>
-            <div class="mt-3 grid grid-cols-2 gap-3 max-w-[70%] lg:max-w-[100%]">
-              <div class="w-full text-center" v-for="size in product.sizes" :key="size.title">
-                <NuxtLink :aria-description="size.title + ' ' + product.title" :to="size.link"
-                          class="relative border border-[#c9c9c9] w-full block py-3 text-base">
-                  {{ size.title }}
-                  <!--                                  <UBadge v-if="size.title.startsWith('6x4')" color="primary" class="bg-red-500 text-[10px] w-18 h-8 absolute top-0.5 -right-16 leading-[2px]" variant="solid">Best Seller</UBadge>-->
-                </NuxtLink>
-              </div>
+      <div class="  mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
+        <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4" v-for="product in products" :key="product.title">
+          <h3 class="text-[22px] font-light leading-9 flex items-center space-x-2">
+            <NuxtLink :to="product.link" :aria-description="product.title"><span>{{ product.title }}</span></NuxtLink>
+            <UBadge v-if="product.promotion" color="primary" class="bg-red-500" variant="solid">{{ product.promotion }}
+            </UBadge>
+          </h3>
+          <div class="lg:flex lg:flex-row-reverse">
+            <div class="lg:ml-4 w-full h-64 lg:w-[220px] lg:h-[150px]">
+              <NuxtLink :to="product.link" class="w-full" :aria-description="product.title">
+                <NuxtImg :src="product.image" class="object-cover h-64 mt-3 lg:w-[220px] lg:h-[140px]" provider="s3Provider" :alt="product.title"/>
+              </NuxtLink>
             </div>
-            <div v-if="product.rating" class="mt-4 flex lg:justify-center">
-              <UIcon name="i-heroicons-star-solid" v-for="i in product.rating" class="text-yellow-500 fill-amber-500 w-6 h-6"/>
+            <div class="flex-1">
+              <p class="text-sm text-dim-gray font-extralight mt-6 lg:mt-2">Select a size continue:</p>
+              <div class="mt-3 grid grid-cols-2 gap-3 max-w-[70%] lg:max-w-[100%]">
+                <div class="w-full text-center" v-for="size in product.sizes" :key="size.title">
+                  <NuxtLink :aria-description="size.title + ' ' + product.title" :to="size.link"
+                            class="relative border border-[#c9c9c9] w-full block py-3 text-base">
+                    {{ size.title }}
+                    <!--                                  <UBadge v-if="size.title.startsWith('6x4')" color="primary" class="bg-red-500 text-[10px] w-18 h-8 absolute top-0.5 -right-16 leading-[2px]" variant="solid">Best Seller</UBadge>-->
+                  </NuxtLink>
+                </div>
+              </div>
+              <div v-if="product.rating" class="mt-4 flex lg:justify-center">
+                <UIcon name="i-heroicons-star-solid" v-for="i in product.rating" class="text-yellow-500 fill-amber-500 w-6 h-6"/>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </UContainer>
 
     <div>
       <WhyChooseUs />
@@ -82,7 +84,7 @@
       </div>
     </div>
 
-    <div class="p-5 mx-auto lg:px-32 lg:mt-12 lg:max-w-7xl">
+    <UContainer class="p-4  lg:px-32 lg:mt-12 ">
       <h2 class="text-left text-2xl my-4 lg:text-center lg:my-6">See our customer reviews</h2>
       <div class="grid grid-cols-1 gap-6">
         <div v-for="review in reviews" :key="review.message" class="p-5 text-center shadow-[1px_1px_8px_1px_#d3d3d3]">
@@ -94,12 +96,12 @@
           </p>
         </div>
       </div>
-    </div>
+    </UContainer>
 
-    <div class="max-w-7xl mx-auto p-5 text-center lg:mt-12">
+    <UContainer class=" p-4 text-center lg:mt-12">
       <h2 class="text-xl font-normal my-3 lg:text-2xl">Inspiration for your new photo prints</h2>
       <p class="text-sm font-light text-dim-gray">Here for creative ideas for your photo prints</p>
-      <div class="grid grid-cols-2 gap-6 mt-8 p-4 text-left underline lg:grid-cols-4 lg:gap-10">
+      <div class="grid grid-cols-2 gap-6 mt-8 py-4 text-left underline lg:grid-cols-4 lg:gap-10">
         <NuxtLink to="https://freesnapsphototiles.com/gallery-walls/7">
           <NuxtImg src="/prints/inspiration_1.webp" alt="16 Beautiful Memories" provider="s3Provider"/>
           <p class="mt-3">16 Beautiful Memories</p>
@@ -117,7 +119,7 @@
           <p class="mt-3">Simply 4 Portrait</p>
         </NuxtLink>
       </div>
-    </div>
+    </UContainer>
 
   </div>
 </template>

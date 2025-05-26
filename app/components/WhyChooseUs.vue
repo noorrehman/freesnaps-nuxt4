@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container mx-auto py-4 mt-8 px-4">
+  <UContainer class=" py-4 mt-8 px-4">
     <h2 class="lg:text-xl font-semibold text-center">Why Choose Us?</h2>
     <div class="max-w-2xl mx-auto">
       <div class="flex items-center justify-between mt-4 mb-2 font-semibold lg:text-base">
@@ -35,7 +35,7 @@
         <img src="/images/prints/icons.webp" alt="Features icon" class="mx-auto h-14 mt-4" />
       </div>
     </div>
-  </div>
+  </UContainer>
 
 </template>
 
