@@ -1,0 +1,276 @@
+{
+  "id": 649,
+  "name": "Thin Black Photo Frame",
+  "slug": "thin-black-photo-frame",
+  "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/",
+  "type": "variable",
+  "status": "publish",
+  "featured": false,
+  "description": "",
+  "short_description": "",
+  "price": "8.99",
+  "regular_price": "",
+  "sale_price": "",
+  "categories": [
+    {
+      "id": 38,
+      "name": "PhotoFrame",
+      "slug": "photoframe"
+    }
+  ],
+  "variations": [
+    {
+      "id": 10253,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=6x6-mount-holds-4x4",
+      "sku": "",
+      "price": "9.99",
+      "sale_price": "9.99",
+      "regular_price": "14.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "6x6 mount holds 4x4"
+        }
+      ]
+    },
+    {
+      "id": 658,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=20x16-mount-holds-16x12",
+      "sku": "",
+      "price": "24.99",
+      "sale_price": "24.99",
+      "regular_price": "44.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "20x16 mount holds 16x12"
+        }
+      ]
+    },
+    {
+      "id": 657,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=6x4-mount-holds-3x2",
+      "sku": "",
+      "price": "9.99",
+      "sale_price": "9.99",
+      "regular_price": "29.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "6x4 mount holds 3x2"
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=7x5-no-mount",
+      "sku": "",
+      "price": "11.99",
+      "sale_price": "11.99",
+      "regular_price": "24.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "7x5 no mount"
+        }
+      ]
+    },
+    {
+      "id": 655,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=8x6-mount-holds-6x4-print",
+      "sku": "",
+      "price": "8.99",
+      "sale_price": "8.99",
+      "regular_price": "14.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "8x6 mount holds 6x4 print"
+        }
+      ]
+    },
+    {
+      "id": 654,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=10x8-mount-holds-8x6",
+      "sku": "",
+      "price": "13.99",
+      "sale_price": "13.99",
+      "regular_price": "31.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "10x8 mount holds 8x6"
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=11x14-mount-holds-a4",
+      "sku": "",
+      "price": "14.99",
+      "sale_price": "14.99",
+      "regular_price": "34.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "11x14 mount holds A4"
+        }
+      ]
+    },
+    {
+      "id": 652,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=12x10-mount-holds-10x8",
+      "sku": "",
+      "price": "14.99",
+      "sale_price": "14.99",
+      "regular_price": "44.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "12x10 mount holds 10x8"
+        }
+      ]
+    },
+    {
+      "id": 651,
+      "description": "",
+      "permalink": "https://app.freesnaps.co.uk/product/thin-black-photo-frame/?attribute_pa_size=16x12-mounts-holds-12x8",
+      "sku": "",
+      "price": "19.99",
+      "sale_price": "19.99",
+      "regular_price": "39.99",
+      "status": "publish",
+      "image": {
+        "id": 679,
+        "date_created": "2024-09-03T02:01:20",
+        "date_created_gmt": "2024-09-03T02:01:20",
+        "date_modified": "2024-09-03T02:01:20",
+        "date_modified_gmt": "2024-09-03T02:01:20",
+        "src": "https://app.freesnaps.co.uk/wp-content/uploads/2024/09/portrait-thin-black.png",
+        "name": "portrait-thin-black.png",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 11,
+          "name": "Size",
+          "slug": "pa_size",
+          "option": "16x12 mounts holds 12x8"
+        }
+      ]
+    }
+  ],
+  "meta_data": []
+}

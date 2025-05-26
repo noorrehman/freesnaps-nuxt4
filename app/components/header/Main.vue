@@ -52,21 +52,7 @@
         </div>
       </div>
       <!--  Countdown -->
-      <div class="bg-pink-600 h-[40px] lg:h-[40px] flex items-center">
-        <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
-          <p class="text-sm">
-            Order over <strong class="font-bold">£{{}}</strong> get <strong class="font-bold">20%</strong> off - See at checkout
-          </p>
 
-        </div>
-      </div>
-      <div class="bg-pink-600 h-[40px] lg:h-[40px] flex items-center">
-        <div class="container mx-auto px-0.5 py-2 lg:py-4 flex items-center text-white justify-center text-center">
-          <p class="text-center font-normal">
-            <strong>Offer ends <span class="underline">{{getTomorrowDate()}}</span></strong>
-          </p>
-        </div>
-      </div>
     </header>
 </template>
 

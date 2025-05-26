@@ -33,8 +33,8 @@
       <h2 class="text-xl text-center">Choose a print size below to get started</h2>
     </div>
 
-    <div class="max-w-7xl mx-auto px-5 mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
-      <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4" v-for="product in products" :key="product.title">
+    <UContainer class=" px-5 mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
+      <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4 py-8" v-for="product in products" :key="product.title">
         <h3 class="text-[22px] font-light leading-9 flex items-center space-x-2">
           <NuxtLink :to="product.link" :aria-description="product.title"><span>{{ product.title }}</span></NuxtLink>
           <UBadge v-if="product.promotion" color="primary" class="bg-red-500" variant="solid">{{ product.promotion }}
@@ -63,7 +63,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </UContainer>
 
     <div>
       <WhyChooseUs />
