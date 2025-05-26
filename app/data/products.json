@@ -1,0 +1,935 @@
+[
+  {
+    "id": 12839,
+    "name": "Panoramic Prints",
+    "slug": "panoramic-prints",
+    "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "\u003Cp\u003EOur panoramic size prints offer a unique and captivating way to display your photos. With an elongated and panoramic format, these prints create a stunning visual impact that is perfect for showcasing landscapes, group photos, and wide-angle shots.\u003C/p\u003E\n",
+    "short_description": "",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 12848,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=8-x-24",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "8 x 24"
+          }
+        ]
+      },
+      {
+        "id": 12847,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=8-x-22",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "8 x 22"
+          }
+        ]
+      },
+      {
+        "id": 12846,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=6-x-20",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "6 x 20"
+          }
+        ]
+      },
+      {
+        "id": 12845,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=6-x-18",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "6 x 18"
+          }
+        ]
+      },
+      {
+        "id": 12844,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=6-x-12",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "6 x 12"
+          }
+        ]
+      },
+      {
+        "id": 12843,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=4-x-12",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "4 x 12"
+          }
+        ]
+      },
+      {
+        "id": 12842,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=12-x-24",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "12 x 24"
+          }
+        ]
+      },
+      {
+        "id": 12841,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=10-x-24",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "10 x 24"
+          }
+        ]
+      },
+      {
+        "id": 12840,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/panoramic-prints/?attribute_pa_panoramic=10-x-22",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 12,
+            "name": "Panoramic",
+            "slug": "pa_panoramic",
+            "option": "10 x 22"
+          }
+        ]
+      }
+    ],
+    "meta_data": []
+  },
+  {
+    "id": 63,
+    "name": "Poster Prints",
+    "slug": "poster-prints",
+    "permalink": "https://app.freesnaps.co.uk/product/poster-prints/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "\u003Cp\u003EOur poster size printing option is ideal for bringing your high-quality files to life in a grand and impressive format. Perfect for showcasing detailed images and vibrant colors, these prints are designed to make a statement.\u003C/p\u003E\n",
+    "short_description": "",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 12875,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/poster-prints/?attribute_pa_poster-size=20x24",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 6,
+            "name": "Poster Size",
+            "slug": "pa_poster-size",
+            "option": "20x24"
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/poster-prints/?attribute_pa_poster-size=a2",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 6,
+            "name": "Poster Size",
+            "slug": "pa_poster-size",
+            "option": "A2"
+          }
+        ]
+      },
+      {
+        "id": 75,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/poster-prints/?attribute_pa_poster-size=a1",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 6,
+            "name": "Poster Size",
+            "slug": "pa_poster-size",
+            "option": "A1"
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/poster-prints/?attribute_pa_poster-size=30x40",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 6,
+            "name": "Poster Size",
+            "slug": "pa_poster-size",
+            "option": "30x40"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/poster-prints/?attribute_pa_poster-size=20x30",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 6,
+            "name": "Poster Size",
+            "slug": "pa_poster-size",
+            "option": "20x30"
+          }
+        ]
+      }
+    ],
+    "meta_data": [
+      {
+        "id": 1713,
+        "key": "api_promotional_text",
+        "value": "Unlimited Prints with Express Delivery"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Extra Large",
+    "slug": "extra-large",
+    "permalink": "https://app.freesnaps.co.uk/product/extra-large/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "\u003Cp\u003EOur large size prints are perfect for showcasing your photos in a bold and impactful way. Ideal for photo framing or mounting on a wall, these prints allow you to see your images in an extra big and impressive format.\u003C/p\u003E\n",
+    "short_description": "",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 15768,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=16x12",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "16x12"
+          }
+        ]
+      },
+      {
+        "id": 15767,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=12x12",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "12x12"
+          }
+        ]
+      },
+      {
+        "id": 15766,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=12x10",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "12x10"
+          }
+        ]
+      },
+      {
+        "id": 15765,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=11x14",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "11x14"
+          }
+        ]
+      },
+      {
+        "id": 15764,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=10x10",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "10x10"
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=a3",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "A3"
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=16x20",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "16x20"
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=12x18",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "12x18"
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/extra-large/?attribute_pa_extra-large=10x15",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 5,
+            "name": "Extra Large",
+            "slug": "pa_extra-large",
+            "option": "10x15"
+          }
+        ]
+      }
+    ],
+    "meta_data": []
+  },
+  {
+    "id": 61,
+    "name": "Large Prints",
+    "slug": "large-prints",
+    "permalink": "https://app.freesnaps.co.uk/product/large-prints/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "\u003Cp\u003EOur large size prints are perfect for showcasing your photos in a bold and impactful way. Ideal for photo framing or mounting on a wall, these prints allow you to see your images in an extra big and impressive format.\u003C/p\u003E\n",
+    "short_description": "",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 12866,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=6x6",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "6x6"
+          }
+        ]
+      },
+      {
+        "id": 12865,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=a4",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "A4"
+          }
+        ]
+      },
+      {
+        "id": 12864,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=9x6",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "9x6"
+          }
+        ]
+      },
+      {
+        "id": 12863,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=8x8",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "8x8"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=8x6",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "8x6"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=12x8",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "12x8"
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/large-prints/?attribute_pa_large=10x8",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 4,
+            "name": "Large",
+            "slug": "pa_large",
+            "option": "10x8"
+          }
+        ]
+      }
+    ],
+    "meta_data": [
+      {
+        "id": 1717,
+        "key": "api_promotional_text",
+        "value": "Unlimited Prints with Express Delivery"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Instagram Prints",
+    "slug": "instagram-prints",
+    "permalink": "https://app.freesnaps.co.uk/product/instagram-prints/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "\u003Cp\u003EOur square size prints add a fun and unique touch to your photos. Perfect for creating mini prints that stand out with their distinct shape, these prints are ideal for adding a playful twist to your collection of memories.\u003C/p\u003E\n",
+    "short_description": "",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 72,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/instagram-prints/?attribute_pa_instagram=5x5",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 3,
+            "name": "Instagram",
+            "slug": "pa_instagram",
+            "option": "5x5"
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/instagram-prints/?attribute_pa_instagram=4x4",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 3,
+            "name": "Instagram",
+            "slug": "pa_instagram",
+            "option": "4x4"
+          }
+        ]
+      }
+    ],
+    "meta_data": [
+      {
+        "id": 1715,
+        "key": "api_promotional_text",
+        "value": "Unlimited Prints with Express Delivery"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Premium Standard",
+    "slug": "premium-standard",
+    "permalink": "https://app.freesnaps.co.uk/product/premium-standard/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "Print your photo memories slightly larger than standard sizes in bright colour on the highest-quality archival photo paper. Choose the classic 7x5 photo print size, perfect for photo albums.",
+    "short_description": "Our standard size prints are perfect for album storage, preserving your memories beautifully",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 84,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/premium-standard/?attribute_pa_premium-standard=7x5",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 2,
+            "name": "Premium Standard",
+            "slug": "pa_premium-standard",
+            "option": "7x5"
+          }
+        ]
+      }
+    ],
+    "meta_data": []
+  },
+  {
+    "id": 58,
+    "name": "Standard Prints",
+    "slug": "standard-prints",
+    "permalink": "https://app.freesnaps.co.uk/product/standard-prints/",
+    "type": "variable",
+    "status": "publish",
+    "featured": false,
+    "description": "Standard Print Images on Gloss 260gsm Fuji Paper Elevate your visuals with our vibrant standard print images, expertly produced on premium 260gsm gloss Fuji paper. <br /> Designed for those who appreciate quality and detail, our prints deliver sharp, vivid colors that bring your images to life. The high-gloss finish enhances contrast and depth, making it perfect for photography, art reproductions, and promotional materials. With a weight of 260gsm, this paper is not only sturdy but also offers a luxurious feel that adds a touch of sophistication to any project. <br /> Whether you're displaying cherished memories, showcasing artwork, or creating eye-catching marketing materials, our standard print images on gloss Fuji paper ensure your visuals stand out. Experience the difference in quality and clarity that Fuji paper provides, and make your images unforgettable.",
+    "short_description": "Our standard size prints are perfect for album storage, preserving your memories beautifully.",
+    "price": "0",
+    "regular_price": "",
+    "sale_price": "",
+    "categories": [
+      {
+        "id": 34,
+        "name": "Prints",
+        "slug": "prints"
+      }
+    ],
+    "variations": [
+      {
+        "id": 12862,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=4x3",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "4x3"
+          }
+        ]
+      },
+      {
+        "id": 12861,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=3x2",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "3x2"
+          }
+        ]
+      },
+      {
+        "id": 12860,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=2x2",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "2x2"
+          }
+        ]
+      },
+      {
+        "id": 66,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=6x4",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "6x4"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=4x3-5",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "4x3.5"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "description": "",
+        "permalink": "https://app.freesnaps.co.uk/product/standard-prints/?attribute_pa_standard=4x5",
+        "sku": "",
+        "price": "0",
+        "sale_price": "",
+        "regular_price": "0",
+        "status": "publish",
+        "image": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Standard",
+            "slug": "pa_standard",
+            "option": "4x5"
+          }
+        ]
+      }
+    ],
+    "meta_data": [
+      {
+        "id": 1711,
+        "key": "api_promotional_text",
+        "value": "Unlimited Prints with Express Delivery"
+      }
+    ]
+  }
+]

@@ -1,7 +1,6 @@
 <template>
   <UContainer class=" px-4 py-8 ">
     <h1 class="text-3xl font-bold mb-6">Checkout</h1>
-
     <div class="flex -mx-4 ">
       <!-- Checkout Form -->
       <div class="w-full lg:w-2/3 px-4 mb-8 shadow-xl border rounded-lg border-gray-100">
@@ -13,7 +12,6 @@
                 <UIcon name="i-bi-1-circle-fill" class="bg-blue-800 mr-2 size-6" />
                 <h2 class="text-xl font-semibold">Customer Information</h2>
               </div>
-
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <UFormField label="First Name">
                     <UInput type="text" color="info" v-model="firstName" name="firstName" class="w-full" size="xl" required/>
@@ -29,7 +27,6 @@
                   </UFormField>
               </div>
             </li>
-
             <!-- Delivery Information -->
             <li class="mb-8">
               <div class="flex items-center border-b-2 border-gray-200 pb-2 mb-4">
@@ -91,7 +88,6 @@
                     <UInput type="text" color="info" v-model="cvv" name="cvv" class="w-full " size="xl"
                             trailing-icon="i-heroicons-question-mark-circle-16-solid" placeholder="123"  required/>
                   </UFormField>
-
                 </div>
               </div>
 
@@ -102,9 +98,7 @@
                   <span class="ml-1 text-lg">PayPal</span>
                   <UIcon name="i-fa-paypal" class="size-5 bg-blue-800"/>
                 </div>
-                <p class="text-sm text-gray-600 mt-2 ml-6">
-                  You will be redirected to PayPal to complete your payment securely.
-                </p>
+                <p class="text-sm text-gray-600 mt-2 ml-6">You will be redirected to PayPal to complete your payment securely.</p>
               </div>
               <div class="flex-col p-4 rounded-md mb-4 border border-gray-300" >
                 <div class="flex items-center space-x-2">
@@ -200,11 +194,9 @@
             <h3 class="font-semibold mb-2">Our Customers Love FreeSnaps</h3>
             <div class="flex items-center space-x-2 mb-2">
               <span>Rated excellent on</span>
-              <img src="https://freesnaps.co.uk/images/trust_pilot_star_with_text.png" alt="Trust Pilot"
-                   class="inline-block h-5">
+              <img src="https://freesnaps.co.uk/images/trust_pilot_star_with_text.png" alt="Trust Pilot" class="inline-block h-5">
             </div>
             <img src="https://freesnaps.co.uk/images/trust_pilot_5_star.png" alt="5 stars rating" class="h-6 mb-3">
-
             <div class="text-sm italic">
               "The service and quality is amazing..arrive on time I honestly can't fault them..Will be ordering more"
             </div>
@@ -217,7 +209,6 @@
     <!-- Trust Features -->
     <div class="my-12">
       <h3 class="text-xl font-semibold mb-6 text-center">Why Choose FreeSnaps</h3>
-
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center p-4">
           <UIcon name="i-fa6-solid-truck-fast" class="size-10 bg-blue-800 mb-4" />
@@ -242,17 +233,6 @@
 </template>
 
 <script setup lang="ts">
-import type {RadioGroupItem, RadioGroupValue} from '@nuxt/ui'
-
-
-const items = ref<RadioGroupItem[]>(['Credit/Debit  Card',])
-const paypal = ref<RadioGroupItem[]>(['PayPal',])
-const applepay = ref<RadioGroupItem[]>(['Apple Pay',])
 
 
 </script>
-
-<style scoped>
-
-
-</style>

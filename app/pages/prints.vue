@@ -29,38 +29,36 @@
         </div>
     </div> -->
 
-    <UContainer>
-      <div class="  my-4 lg:my-6">
-        <h2 class="text-xl text-center">Choose a print size below to get started</h2>
-      </div>
+    <div class="max-w-7xl mx-auto px-5 my-4 lg:my-6">
+      <h2 class="text-xl text-center">Choose a print size below to get started</h2>
+    </div>
 
-      <div class="  mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
-        <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4" v-for="product in products" :key="product.title">
-          <h3 class="text-[22px] font-light leading-9 flex items-center space-x-2">
-            <NuxtLink :to="product.link" :aria-description="product.title"><span>{{ product.title }}</span></NuxtLink>
-            <UBadge v-if="product.promotion" color="primary" class="bg-red-500" variant="solid">{{ product.promotion }}
-            </UBadge>
-          </h3>
-          <div class="lg:flex lg:flex-row-reverse">
-            <div class="lg:ml-4 w-full h-64 lg:w-[220px] lg:h-[150px]">
-              <NuxtLink :to="product.link" class="w-full" :aria-description="product.title">
-                <NuxtImg :src="product.image" class="object-cover h-64 mt-3 lg:w-[220px] lg:h-[140px]" provider="s3Provider" :alt="product.title"/>
-              </NuxtLink>
+    <UContainer class=" px-5 mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2" id="products">
+      <div class="shadow-[2px_2px_11px_4px_rgba(0,0,0,.09)] p-4 py-8" v-for="product in products" :key="product.title">
+        <h3 class="text-[22px] font-light leading-9 flex items-center space-x-2">
+          <NuxtLink :to="product.link" :aria-description="product.title"><span>{{ product.title }}</span></NuxtLink>
+          <UBadge v-if="product.promotion" color="primary" class="bg-red-500" variant="solid">{{ product.promotion }}
+          </UBadge>
+        </h3>
+        <div class="lg:flex lg:flex-row-reverse">
+          <div class="lg:ml-4 w-full h-64 lg:w-[220px] lg:h-[150px]">
+            <NuxtLink :to="product.link" class="w-full" :aria-description="product.title">
+              <NuxtImg :src="product.image" class="object-cover h-64 mt-3 lg:w-[220px] lg:h-[140px]" provider="s3Provider" :alt="product.title"/>
+            </NuxtLink>
+          </div>
+          <div class="flex-1">
+            <p class="text-sm text-dim-gray font-extralight mt-6 lg:mt-2">Select a size continue:</p>
+            <div class="mt-3 grid grid-cols-2 gap-3 max-w-[70%] lg:max-w-[100%]">
+              <div class="w-full text-center" v-for="size in product.sizes" :key="size.title">
+                <NuxtLink :aria-description="size.title + ' ' + product.title" :to="size.link"
+                          class="relative border border-[#c9c9c9] w-full block py-3 text-base">
+                  {{ size.title }}
+                  <!--                                  <UBadge v-if="size.title.startsWith('6x4')" color="primary" class="bg-red-500 text-[10px] w-18 h-8 absolute top-0.5 -right-16 leading-[2px]" variant="solid">Best Seller</UBadge>-->
+                </NuxtLink>
+              </div>
             </div>
-            <div class="flex-1">
-              <p class="text-sm text-dim-gray font-extralight mt-6 lg:mt-2">Select a size continue:</p>
-              <div class="mt-3 grid grid-cols-2 gap-3 max-w-[70%] lg:max-w-[100%]">
-                <div class="w-full text-center" v-for="size in product.sizes" :key="size.title">
-                  <NuxtLink :aria-description="size.title + ' ' + product.title" :to="size.link"
-                            class="relative border border-[#c9c9c9] w-full block py-3 text-base">
-                    {{ size.title }}
-                    <!--                                  <UBadge v-if="size.title.startsWith('6x4')" color="primary" class="bg-red-500 text-[10px] w-18 h-8 absolute top-0.5 -right-16 leading-[2px]" variant="solid">Best Seller</UBadge>-->
-                  </NuxtLink>
-                </div>
-              </div>
-              <div v-if="product.rating" class="mt-4 flex lg:justify-center">
-                <UIcon name="i-heroicons-star-solid" v-for="i in product.rating" class="text-yellow-500 fill-amber-500 w-6 h-6"/>
-              </div>
+            <div v-if="product.rating" class="mt-4 flex lg:justify-center">
+              <UIcon name="i-heroicons-star-solid" v-for="i in product.rating" class="text-yellow-500 fill-amber-500 w-6 h-6"/>
             </div>
           </div>
         </div>
