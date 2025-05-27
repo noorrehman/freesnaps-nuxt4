@@ -9,48 +9,48 @@
             <!-- Customer Information -->
             <li class="mb-8">
               <div class="flex items-center border-b-2 border-gray-200  pb-2 mb-4">
-                <UIcon name="i-bi-1-circle-fill" class="bg-blue-800 mr-2 size-6" />
+                <UIcon name="i-bi-1-circle-fill" class="bg-primary mr-2 size-6" />
                 <h2 class="text-xl font-semibold">Customer Information</h2>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <UFormField label="First Name">
-                    <UInput type="text" color="info" v-model="firstName" name="firstName" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="firstName" name="firstName" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Last Name">
-                    <UInput type="text" color="info" v-model="lastName" name="lastName" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="lastName" name="lastName" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Email">
-                    <UInput type="text" color="info" v-model="email" name="email" class="w-full" size="xl" required/>
+                    <UInput type="text"  v-model="email" name="email" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Phone">
-                    <UInput type="text" color="info" v-model="phone" name="phone" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="phone" name="phone" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
               </div>
             </li>
             <!-- Delivery Information -->
             <li class="mb-8">
               <div class="flex items-center border-b-2 border-gray-200 pb-2 mb-4">
-                <UIcon name="i-bi-2-circle-fill" class="bg-blue-800 mr-2 size-6" />
+                <UIcon name="i-bi-2-circle-fill" class="bg-primary mr-2 size-6" />
                 <h2 class="text-xl font-semibold">Delivery Information</h2>
               </div>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-4">
                   <UFormField label="Address Line 1">
-                    <UInput type="text" color="info" v-model="address1" name="address1" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="address1" name="address1" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Address Line 2 (Optional)">
-                    <UInput type="text" color="info" v-model="address2" name="address2" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="address2" name="address2" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <UFormField label="City">
-                    <UInput type="text" color="info" v-model="city" name="city" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="city" name="city" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Country">
-                    <UInput type="text" color="info" v-model="country" name="country" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="country" name="country" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                   <UFormField label="Postcode">
-                    <UInput type="text" color="info" v-model="postcode" name="postcode" class="w-full" size="xl" required/>
+                    <UInput type="text" v-model="postcode" name="postcode" class="w-full outline-primary" size="xl" required/>
                   </UFormField>
                 </div>
               </div>
@@ -58,16 +58,16 @@
             <!-- Payment Method -->
             <li>
               <div class="flex items-center border-b-2 border-gray-200 pb-2 mb-4">
-                <UIcon name="i-bi-3-circle-fill" class="bg-blue-800 mr-2 size-6" />
+                <UIcon name="i-bi-3-circle-fill" class="bg-primary mr-2 size-6" />
                 <h2 class="text-xl font-semibold">Payment Method</h2>
               </div>
               <!-- Credit/Debit Card Option -->
-              <div class="border border-blue-800 bg-blue-800/5 p-4 rounded-md mb-4 ">
+              <div class="border border-primary bg-primary/5 p-4 rounded-md mb-4 ">
                 <div class="flex items-center mb-3">
-                  <UIcon name="i-fluent-radio-button-20-filled" class="size-5 bg-blue-800" />
+                  <UIcon name="i-fluent-radio-button-20-filled" class="size-5 bg-primary" />
                   <span class="ml-1 text-lg">Credit/Debit Card</span>
                   <span class="flex space-x-1 ml-2">
-                      <UIcon name="i-cib-cc-visa" class="size-6 bg-blue-800"/>
+                      <UIcon name="i-cib-cc-visa" class="size-6 bg-primary"/>
                       <UIcon name="i-cib-cc-mastercard" class="size-6 bg-red-500 "/>
                       <UIcon name="i-fa6-brands-cc-amex" class="size-6  bg-blue-500"/>
                     </span>
@@ -75,17 +75,17 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 grow">
                     <UFormField label="Name on Card" class="lg:col-span-2 ">
-                      <UInput type="text" color="info" v-model="cardName" name="cardName" class="w-full " size="xl" required/>
+                      <UInput type="text" v-model="cardName" name="cardName" class="w-full outline-primary" size="xl" required/>
                     </UFormField>
                   <UFormField label="Card Number" class=" lg:col-span-2">
-                    <UInput type="text" color="info" v-model="cardNumber" name="cardNumber" class="w-full " size="xl"
+                    <UInput type="text" v-model="cardNumber" name="cardNumber" class="w-full outline-primary" size="xl"
                             trailing-icon="i-heroicons-solid-lock-closed" placeholder="012345..."  required/>
                   </UFormField>
                   <UFormField label="Expiry Date" class="">
-                    <UInput type="text" color="info" v-model="expiry" name="expiry" class="w-full " size="xl" placeholder="MM/YY"  required/>
+                    <UInput type="text" v-model="expiry" name="expiry" class="w-full outline-primary" size="xl" placeholder="MM/YY"  required/>
                   </UFormField>
                   <UFormField label="CVV" class="">
-                    <UInput type="text" color="info" v-model="cvv" name="cvv" class="w-full " size="xl"
+                    <UInput type="text" v-model="cvv" name="cvv" class="w-full outline-primary" size="xl"
                             trailing-icon="i-heroicons-question-mark-circle-16-solid" placeholder="123"  required/>
                   </UFormField>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="flex items-center space-x-2">
                   <UIcon name="i-fluent-radio-button-20-regular" class="size-4 " />
                   <span class="ml-1 text-lg">PayPal</span>
-                  <UIcon name="i-fa-paypal" class="size-5 bg-blue-800"/>
+                  <UIcon name="i-fa-paypal" class="size-5 bg-primary"/>
                 </div>
                 <p class="text-sm text-gray-600 mt-2 ml-6">You will be redirected to PayPal to complete your payment securely.</p>
               </div>
@@ -109,12 +109,12 @@
                 <p class="text-sm text-gray-600 mt-2 ml-6">Fast, secure checkout with Apple Pay.</p>
               </div>
               <div class="flex items-center mt-6">
-                <UIcon name="i-system-uicons-checkbox-empty" class="size-4"/>
+                <UCheckbox v-model="value" />
                 <span class=" text-sm ml-1">I agree to the
                 <span  class="text-blue-700">Terms and Conditions</span>
                 </span>
               </div>
-              <UButton  size="xl" class="block bg-blue-900/85 hover:bg-blue-900/90 hover:cursor-pointer w-full mt-8 py-3 font-bold" >Complete Order</UButton>
+              <UButton  size="xl" class="block bg-primary hover:bg-primary/95 hover:cursor-pointer w-full mt-8 py-3 font-bold" >Complete Order</UButton>
               <div class="text-center mt-4">
                 <div class="flex justify-center items-center">
                   <UIcon name="i-fa6-solid-lock" class="text-green-700 mr-2"></UIcon>
@@ -177,15 +177,15 @@
 
           <div class="mb-6 text-lg space-y-2">
             <div class="flex items-center space-x-2">
-              <UIcon name="i-fa-solid-shield-alt" class="size-6 bg-blue-800"/>
+              <UIcon name="i-fa-solid-shield-alt" class="size-6 bg-primary"/>
               <span>Secure Checkout</span>
             </div>
             <div class="flex items-center space-x-2">
-              <UIcon name="i-fa6-solid-truck" class="size-6 bg-blue-800"/>
+              <UIcon name="i-fa6-solid-truck" class="size-6 bg-primary"/>
               <span>Next Day Delivery</span>
             </div>
             <div class="flex items-center space-x-2">
-              <UIcon name="i-fa6-solid-star" class="size-6 bg-blue-800"/>
+              <UIcon name="i-fa6-solid-star" class="size-6 bg-primary"/>
               <span>Excellent Rated Service</span>
             </div>
           </div>
@@ -211,19 +211,19 @@
       <h3 class="text-xl font-semibold mb-6 text-center">Why Choose FreeSnaps</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center p-4">
-          <UIcon name="i-fa6-solid-truck-fast" class="size-10 bg-blue-800 mb-4" />
+          <UIcon name="i-fa6-solid-truck-fast" class="size-10 bg-primary mb-4" />
           <h4 class="font-semibold mb-2">Next Day Delivery</h4>
           <p class="text-gray-600">Order before 4PM for next day delivery</p>
         </div>
 
         <div class="text-center p-4">
-          <UIcon name="i-fa6-solid-star" class="size-10 bg-blue-800 mb-4" />
+          <UIcon name="i-fa6-solid-star" class="size-10 bg-primary mb-4" />
           <h4 class="font-semibold mb-2">Excellent Rated</h4>
           <p class="text-gray-600">Over 100,000 happy customers</p>
         </div>
 
         <div class="text-center p-4">
-          <UIcon name="i-fa6-solid-lock" class="size-10 bg-blue-800 mb-4" />
+          <UIcon name="i-fa6-solid-lock" class="size-10 bg-primary mb-4" />
           <h4 class="font-semibold mb-2">Secure Checkout</h4>
           <p class="text-gray-600">All payments are encrypted and secure</p>
         </div>
@@ -234,5 +234,6 @@
 
 <script setup lang="ts">
 
+const value = ref(false)
 
 </script>
