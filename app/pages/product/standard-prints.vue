@@ -25,7 +25,7 @@
               {{ variation.attributes[0].option }}
             </button>
           </div>
-          <UButton label="UPLOAD PHOTOS" size="xl" class="mt-4 bg-gray-700/90 hover:bg-gray-700/95 w-full justify-center py-3 font-light " />
+          <UButton label="UPLOAD PHOTOS" size="xl" class="mt-4 bg-dark-blue hover:bg-gray-800/90 w-full justify-center py-3 font-light " />
         </div>
 
         <div class="mt-6 px-4 ">
