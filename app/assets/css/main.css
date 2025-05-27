@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+@theme {
+    --color-primary: #312C82;
+    --color-dim-gray: #494a4b;
+    --color-dark-blue: #4b5566;
+    --color-accent: #d79f4d;
+}
+
 .fade-all-edges {
     -webkit-mask-image:
             linear-gradient(to right, transparent 0, black 28px, black calc(100% - 28px), transparent 100%),

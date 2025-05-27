@@ -2,11 +2,8 @@
   <div class="bg-[url('/images/home/header_bg.webp')] bg-no-repeat bg-center bg-cover flex items-center justify-center">
     <UContainer class=" text-center flex flex-1 lg:flex-row flex-col-reverse items-center ">
       <div class="lg:w-full">
-        <NuxtImg
-            class="w-full"
-            src="/images/home/header_image_child.webp"
-            alt="Child Prints"
-        />
+        <NuxtImg class="w-full" alt="Child Prints"
+            src="/public/images/home/header_image_child.webp" />
       </div>
       <div class="lg:w-full">
         <div class="w-72 lg:w-56 mx-auto mt-14 lg:mt-0">

@@ -17,7 +17,7 @@
         <div class="pb-2">
         <p class="text-xs text-blacks font-light text-center my-4">
           You can email us anytime at
-          <a class="text-dark-blue font-normal" href="mailto:hello@freesnaps.co.uk">hello@freesnaps.co.uk</a>
+          <a class="text-primary font-normal" href="mailto:hello@freesnaps.co.uk">hello@freesnaps.co.uk</a>
         </p>
         </div>
       <FooterToolbar/>
