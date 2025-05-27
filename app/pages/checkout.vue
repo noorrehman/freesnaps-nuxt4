@@ -1,9 +1,9 @@
 <template>
-  <UContainer class=" px-4 py-8 ">
+  <UContainer class="px-2 lg:px-4 py-8 ">
     <h1 class="text-3xl font-bold mb-6">Checkout</h1>
-    <div class="flex -mx-4 ">
+    <div class="flex flex-col lg:flex-row lg:-mx-4 ">
       <!-- Checkout Form -->
-      <div class="w-full lg:w-2/3 px-4 mb-8 shadow-xl border rounded-lg border-gray-100">
+      <div class="w-full lg:w-2/3 px-0 lg:px-4 mb-8 shadow-xl border rounded-lg border-gray-200">
         <div class="checkout-container p-6 rounded-lg">
           <ol class="checkout-steps mb-6">
             <!-- Customer Information -->
@@ -127,7 +127,7 @@
       </div>
 
       <!-- Order Summary -->
-      <div class="w-full lg:w-1/3 ml-4 ">
+      <div class="w-full lg:w-1/3 lg:ml-4 ">
         <div class="sticky top-4  p-8 bg-blue-600/5 fade-all-edges">
           <h2 class="text-xl font-semibold mb-4">Order Summary</h2>
           <div class="border-b border-gray-300 pb-4 mb-4">
