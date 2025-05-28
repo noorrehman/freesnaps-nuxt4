@@ -1,9 +1,12 @@
 <template>
   <div class="mt-4 mb-8">
     <div class="lg:hidden">
-      <UNavigationMenu orientation="vertical"  arrow :items="items" class="w-full"
-                       :ui="{ link: 'text-lg font-normal text-stone-700', childLinkLabel: 'text-md font-normal text-stone-700' }"
-
+      <UNavigationMenu v-model:expanded="expanded" orientation="vertical"  arrow :items="items" class="w-full text-dim-gray "
+                       :ui="{
+        link: 'text-lg font-normal text-dim-gray',
+        childLink: 'text-md font-light text-dim-gray',
+        linkLeadingIcon: 'text-dim-gray',
+      }"
       />
     </div>
 
@@ -46,43 +49,55 @@
   </div>
 </template>
 <script setup lang="ts">
+import { useRouter} from 'vue-router'
 import type { NavigationMenuItem } from '@nuxt/ui'
+const expanded = ref(false)
+const router = useRouter()
 
+function closeMenu() {
+  expanded.value = false
+}
 const items = ref<NavigationMenuItem[]>([
   {
     label: 'Prints',
+    to: '/product/prints',
+    icon: 'i-ic-round-local-printshop',
+    class: ' ',
     children: [
-      { label: 'Standard Prints', to: '/product/standard-prints' },
-      { label: 'Vintage Square', to: '/product/instagram-prints' },
-      { label: 'Large Prints', to: '/product/large-prints' },
-      { label: 'Poster Prints', to: '/product/poster-prints' },
+      { label: 'Standard Prints', to: '/product/standard-prints',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Vintage Square', to: '/product/instagram-prints',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Large Prints', to: '/product/large-prints',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Poster Prints', to: '/product/poster-prints',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
     ],
   },
   {
     label: 'Photo Tiles',
+    icon: 'i-ix-tiles-filled',
     children: [
-      { label: 'Frames', to: 'https://freesnapsphototiles.com/photos' },
-      { label: 'Photo Tiles', to: 'https://freesnaps.co.uk/gallery-walls/' },
-      { label: 'Collage', to: 'https://freesnapsphototiles.com/photos/collage' },
-      { label: 'Website', to: 'https://freesnapsphototiles.com/' },
+      { label: 'Frames', to: 'https://freesnapsphototiles.com/photos',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Photo Tiles', to: '/gallery-walls/',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Collage', to: 'https://freesnapsphototiles.com/photos/collage',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Website', to: 'https://freesnapsphototiles.com/',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
     ],
   },
   {
     label: 'Popular Prints',
+    icon: 'i-material-symbols-photo-prints-rounded',
     children: [
-      { label: '6x4 Print', to: '/product/standard-prints/?attribute_pa_standard=6x4' },
-      { label: '4x4 Print', to: '/product/instagram-prints/?attribute_pa_instagram=4x4' },
-      { label: '4x3 Print', to: '/product/standard-prints/?attribute_pa_standard=4x3' },
-      { label: '10x18 Print', to: '/product/large-prints/?attribute_pa_large=10x8' },
+      { label: '6x4 Print', to: '/product/standard-prints/?attribute_pa_standard=6x4',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: '4x4 Print', to: '/product/instagram-prints/?attribute_pa_instagram=4x4',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: '4x3 Print', to: '/product/standard-prints/?attribute_pa_standard=4x3',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: '10x18 Print', to: '/product/large-prints/?attribute_pa_large=10x8',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
     ],
   },
   {
     label: 'More',
+    icon: 'i-material-symbols-more-rounded',
     children: [
-      { label: 'Contact', to: '/contact' },
-      { label: 'Privacy Policy', to: '/privacy-policy' },
-      { label: 'Refund Policy', to: '/refund-policy' },
-      { label: 'Terms & Conditions', to: '/terms-and-conditions' },
+      { label: 'Contact', to: '/contact',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Privacy Policy', to: '/privacy-policy',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Refund Policy', to: '/refund-policy',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Terms & Conditions', to: '/terms-and-conditions',icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
     ],
   },
 ])
