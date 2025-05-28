@@ -17,9 +17,11 @@ export default defineNuxtConfig({
     defaultTheme: 'light',
   },
   colorMode: {
-    preference: 'light', // default theme on first load
-    fallback: 'light', // fallback when no preference is found
-    classSuffix: '', // use `light` or `dark` as class, not `-light`
+    preference: 'light',
+    fallback: 'light',
+    classSuffix: '',
+    storageKey: 'nuxt-color-mode',
+    detectSystemColorScheme: false,
   },
 
   image: {
