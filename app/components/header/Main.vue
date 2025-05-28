@@ -112,13 +112,13 @@ const mobileMenu = ref<NavigationMenuItem[]>([
     icon: 'i-ic-round-local-printshop',
     to: '/prints',
     children: [
-      { label: 'Standard Prints', to: '/product/standard-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Premium Standards', to: '/product/premium-standard/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Instagram Prints', to: '/product/instagram-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Large Prints', to: '/product/large-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Extra Large Prints', to: '/product/extra-large/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Poster Prints', to: '/product/poster-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Panoramic Prints', to: '/product/panoramic-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu }
+      { label: 'Standard Prints', to: '/product/standard-prints/', onSelect: closeMenu },
+      { label: 'Premium Standards', to: '/product/premium-standard/', onSelect: closeMenu },
+      { label: 'Instagram Prints', to: '/product/instagram-prints/', onSelect: closeMenu },
+      { label: 'Large Prints', to: '/product/large-prints/', onSelect: closeMenu },
+      { label: 'Extra Large Prints', to: '/product/extra-large/', onSelect: closeMenu },
+      { label: 'Poster Prints', to: '/product/poster-prints/', onSelect: closeMenu },
+      { label: 'Panoramic Prints', to: '/product/panoramic-prints/', onSelect: closeMenu }
     ]
   },
   { label: 'ID PHOTOS', to: '/product/id-photos', icon: 'i-flowbite-camera-photo-solid', onSelect: closeMenu },
@@ -130,12 +130,12 @@ const mobileMenu = ref<NavigationMenuItem[]>([
     label: 'MORE',
     icon: 'i-material-symbols-more-rounded',
     children: [
-      { label: 'ID Photo', to: '/product/id-photos', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Blog', to: '/blog', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Success Stories', to: '/success-stories', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'How it works', to: '/how-it-works', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Delivery', to: '/delivery', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
-      { label: 'Contact', to: '/contact', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu }
+      { label: 'ID Photo', to: '/product/id-photos', onSelect: closeMenu },
+      { label: 'Blog', to: '/blog', onSelect: closeMenu },
+      { label: 'Success Stories', to: '/success-stories', onSelect: closeMenu },
+      { label: 'How it works', to: '/how-it-works', onSelect: closeMenu },
+      { label: 'Delivery', to: '/delivery', onSelect: closeMenu },
+      { label: 'Contact', to: '/contact', onSelect: closeMenu }
     ]
   }
 ])
