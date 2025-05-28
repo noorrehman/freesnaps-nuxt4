@@ -9,11 +9,11 @@
       <div class="flex items-center space-x-10">
         <HeaderLogo />
         <div class="hidden lg:block">
-          <UNavigationMenu :items="items" arrow class="w-full" content-orientation="vertical"
+          <UNavigationMenu :items="desktopMenu" arrow class="w-full" content-orientation="vertical"
               :ui="{
               link: 'px-3 text-md font-normal text-dim-gray',
               childLink: ' py-1 ',
-              childLinkLabel: 'text-md px-0 font-light text-dim-gray',
+              childLinkLabel: 'text-md px-0 font-light text-dim-gray ',
               childList: 'px-0 ',
               childItem: 'px-1 border-b border-gray-200 pb-1 last:pb-0 last:border-b-0 '
             }"
@@ -33,15 +33,16 @@
     <!-- Mobile Menu -->
     <transition name="slide-down">
       <div v-if="isMobileMenuOpen" class="lg:hidden px-2 relative">
-        <UNavigationMenu :items="items" arrow orientation="vertical" content-orientation="vertical"
+        <UNavigationMenu :items="mobileMenu" arrow orientation="vertical" content-orientation="vertical"
                          class="absolute left-0 top-full bg-white shadow-lg z-50 w-full"
             :ui="{
                linkLabel: ' text-base font-normal text-dim-gray',
                list: 'border-y-1 border-stone-300 py-5',
                item: ' py-1 px-4 text-md text-dim-gray ',
-               childItem: ' py-0.5 ',
-               childLinkLabel: ' text-md px-0 font-light text-dim-gray',
-               childList: 'border-l-0  ',
+               childItem: ' py-0 ',
+               childLinkLabel: ' text-sm px-0 font-light text-dim-gray hover:bg-dim-gray',
+               childList: ' border-dim-gray/30',
+               linkLeadingIcon: 'text-dim-gray'
             }" />
       </div>
     </transition>
@@ -71,12 +72,13 @@ function closeMenu() {
   isMobileMenuOpen.value = false
 }
 
-const items = ref<NavigationMenuItem[]>([
+const desktopMenu = ref<NavigationMenuItem[]>([
   {
     label: 'PHOTO PRINTS',
     to: '/prints',
+    onSelect: closeMenu,
     children: [
-      { label: 'Standard Prints', to: '/product/standard-prints/', onSelect: closeMenu },
+      { label: 'Standard Prints', to: '/product/standard-prints/',  onSelect: closeMenu },
       { label: 'Premium Standards', to: '/product/premium-standard/', onSelect: closeMenu },
       { label: 'Instagram Prints', to: '/product/instagram-prints/', onSelect: closeMenu },
       { label: 'Large Prints', to: '/product/large-prints/', onSelect: closeMenu },
@@ -99,6 +101,41 @@ const items = ref<NavigationMenuItem[]>([
       { label: 'How it works', to: '/how-it-works', onSelect: closeMenu },
       { label: 'Delivery', to: '/delivery', onSelect: closeMenu },
       { label: 'Contact', to: '/contact', onSelect: closeMenu }
+    ]
+  }
+])
+
+
+const mobileMenu = ref<NavigationMenuItem[]>([
+  {
+    label: 'PHOTO PRINTS',
+    icon: 'i-ic-round-local-printshop',
+    to: '/prints',
+    children: [
+      { label: 'Standard Prints', to: '/product/standard-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Premium Standards', to: '/product/premium-standard/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Instagram Prints', to: '/product/instagram-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Large Prints', to: '/product/large-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Extra Large Prints', to: '/product/extra-large/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Poster Prints', to: '/product/poster-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Panoramic Prints', to: '/product/panoramic-prints/', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu }
+    ]
+  },
+  { label: 'ID PHOTOS', to: '/product/id-photos', icon: 'i-flowbite-camera-photo-solid', onSelect: closeMenu },
+  { label: 'FRAMES', to: 'https://freesnapsphototiles.com/photos', icon: 'i-ix-frames-filled', onSelect: closeMenu },
+  { label: 'PHOTO TILES', to: '/gallery-walls/', icon: 'i-ix-tiles-filled', onSelect: closeMenu },
+  { label: 'COLLAGE', to: 'https://freesnapsphototiles.com/photos/collage', icon: 'i-ri-collage-fill', onSelect: closeMenu },
+  { label: 'ABOUT', to: '/about', icon: 'i-mdi-about', onSelect: closeMenu },
+  {
+    label: 'MORE',
+    icon: 'i-material-symbols-more-rounded',
+    children: [
+      { label: 'ID Photo', to: '/product/id-photos', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Blog', to: '/blog', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Success Stories', to: '/success-stories', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'How it works', to: '/how-it-works', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Delivery', to: '/delivery', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu },
+      { label: 'Contact', to: '/contact', icon : 'i-solar-alt-arrow-right-bold', onSelect: closeMenu }
     ]
   }
 ])
