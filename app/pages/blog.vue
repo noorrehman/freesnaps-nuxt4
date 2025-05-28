@@ -14,8 +14,8 @@
       </div>
     </div>
     <!--    Blog goes here-->
-    <div class="bg-gray-100  py-10 font-light">
-      <UContainer class="max-w-5xl bg-white rounded-lg shadow-lg overflow-hidden">
+    <div class="bg-gray-100 lg:py-10 font-light">
+      <UContainer class="max-w-5xl bg-white lg:rounded-lg shadow-lg overflow-hidden">
         <img class="w-full h-64 object-cover" src="/images/capturing-memories.jpg" alt="Freesnaps Photo Printing">
         <div class="p-8">
           <h1 class="text-3xl font-bold text-gray-800 mb-6">Capturing Memories: The Benefits of Using Freesnaps Photo Printing Service</h1>

@@ -15,13 +15,13 @@
       </div>
     </div>
     <!--    Success Stories-->
-    <UContainer class="p-5  grid grid-cols-1 md:grid-cols-2 justify-center mt-10 text-lg font-medium text-white ">
+    <UContainer class="lg:p-5  grid grid-cols-1 md:grid-cols-2 justify-center lg:mt-10 lg:text-lg lg:font-medium text-white ">
 
-      <div class="flex flex-col  p-4" :class="story.bgColor" v-for="(story, index) in successStories" :key="index"  >
-        <UIcon name="i-ri-double-quotes-l" class="size-12"/>
-        <h2 class="my-6 ">{{story.storyText}}</h2>
-        <div class="flex flex-col mt-4 space-y-1 ">
-          <div class="bg-white w-8 h-1"></div>
+      <div class="flex flex-col p-4" :class="story.bgColor" v-for="(story, index) in successStories" :key="index"  >
+        <UIcon name="i-ri-double-quotes-l" class="size-10 lg:size-12"/>
+        <h2 class="my-1 lg:my-6 ">{{story.storyText}}</h2>
+        <div class="flex flex-col mt-3 space-y-1 ">
+          <div class="bg-white w-10 h-1"></div>
           <p class="text-md font-semibold text-white">{{story.authorName}}</p>
         </div>
       </div>
