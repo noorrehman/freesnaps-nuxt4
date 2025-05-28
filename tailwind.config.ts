@@ -1,17 +1,19 @@
 import type { Config } from 'tailwindcss'
-export default {
+
+const config: Config = {
+  darkMode: false, // 👈 This disables dark mode completely
   content: [
-    `/components/**/*.{vue,js,ts}`,
-    `/layouts/**/*.vue`,
-    `/pages/**/*.vue`,
-    `/composables/**/*.{js,ts}`,
-    `/plugins/**/*.{js,ts}`,
-    `/utils/**/*.{js,ts}`,
-    `/App.{js,ts,vue}`,
-    `/app.{js,ts,vue}`,
-    `/Error.{js,ts,vue}`,
-    `/error.{js,ts,vue}`,
-    `/app.config.{js,ts}`
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './composables/**/*.{js,ts}',
+    './plugins/**/*.{js,ts}',
+    './utils/**/*.{js,ts}',
+    './App.{js,ts,vue}',
+    './app.{js,ts,vue}',
+    './Error.{js,ts,vue}',
+    './error.{js,ts,vue}',
+    './app.config.{js,ts}'
   ],
   theme: {
     extend: {
@@ -48,3 +50,5 @@ export default {
     }
   }
 }
+
+export default config
