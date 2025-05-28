@@ -4,18 +4,18 @@
       arrows loop
       :autoplay="{ delay: 3000 }"
       :items="items"
-      :ui="{ item: 'basis-full',container: 'transition-[width]', controls: 'absolute top-8 -inset-x-15',  }"
-      class="w-full max-w-xs lg:max-w-3xl mx-auto"
+      :ui="{ item: 'basis-full ',container: 'transition-[width]', controls: '',  }"
+      class="w-full lg:max-w-3xl mx-auto items-center justify-between"
       :next="{ variant: 'solid'}"
       :prev="{ variant: 'solid'}"
       :prev-icon="prevIcon"
       :next-icon="nextIcon"
 
   >
-    <div class="w-full mx-4 flex items-center justify-center">
+    <div class="flex flex-1 w-full px-14 lg:px-8  items-center justify-center">
       <div>
         <p class="text-sm font-light">{{item.review}}</p>
-        <p class="mt-1.5"><em class="text-xs">-{{item.name}}</em></p>
+        <p class="mt-1"><em class="text-xs">-{{item.name}}</em></p>
       </div>
     </div>
   </UCarousel>

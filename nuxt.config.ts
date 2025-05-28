@@ -11,6 +11,17 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
+  ui: {
+    // Optional: set default theme here
+    defaultTheme: 'light',
+  },
+  colorMode: {
+    preference: 'light', // default theme on first load
+    fallback: 'light', // fallback when no preference is found
+    classSuffix: '', // use `light` or `dark` as class, not `-light`
+  },
+
   image: {
     provider: process.env.PROVIDER,
     cloudinary: {
