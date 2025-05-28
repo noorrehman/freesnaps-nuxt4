@@ -14,11 +14,11 @@
         <h1 class="text-white font-medium text-xl uppercase lg:text-3xl">What do I get for free?</h1>
       </div>
     </div>
-    <UContainer class="max-w-5xl p-5 font-light">
+    <UContainer class="max-w-5xl lg:p-5 font-light">
       <div class="flex justify-center items-center">
         <video class="w-full" src="https://d3b0axoqanf5po.cloudfront.net/web/front_web_images/how-it-works/how-it-works_tw9oom.mp4" autoplay controls playsinline controlslist="nodownload"></video>
       </div>
-      <div class="my-4 ">
+      <div class="m-4 lg:m-0 lg:my-4 ">
         <p>Hi there! So you’re wondering if we really print your photos for free? Well yes, we do! The only cost involved for the customer is getting them securely packaged and safely delivered from our door to yours. Prices start from as little as 8p and most of our customers use the Express Delivery so they will have the photos in their hand within 1 or 2 working days. As well as offering a super-simple, easy-to-use website, we think there’s a few more reasons our service tops others out there.</p>
         <p class="my-4">We have</p>
         <ul class="list-disc pl-8">

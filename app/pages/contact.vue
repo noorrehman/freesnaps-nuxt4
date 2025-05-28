@@ -3,7 +3,7 @@
     <div class="lg:my-4">
       <h1 class="text-xl lg:text-2xl font-medium">Contact Us</h1>
     </div>
-    <div class="mt-4 mb-10 flex flex-col lg:flex-row">
+    <div class="mt-4 lg:mb-10 flex flex-col lg:flex-row">
       <div class="flex-1 flex items-center justify-center">
         <div v-if="emailSent" class="flex items-center justify-center">
           <div class="flex items-center space-x-2">
@@ -45,10 +45,7 @@
           <h2 class="text-lg font-medium">Alternative</h2>
           <p class="my-2">Use your favourite email client to reach us directly at</p>
           <p class="flex items-center space-x-0.5 justify-center">
-            <UIcon
-                name="i-heroicons-envelope"
-                class="w-5 h-5"
-            />
+            <UIcon name="i-heroicons-envelope" class="w-5 h-5"/>
             <a href="mailto:hello@freesnaps.co.uk" class="text-primary">hello@freesnaps.co.uk</a>
           </p>
         </div>
