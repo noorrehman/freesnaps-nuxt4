@@ -3,7 +3,7 @@
     <UContainer class=" text-center flex flex-1 lg:flex-row flex-col-reverse items-center ">
       <div class="lg:w-full">
         <NuxtImg class="w-full" alt="Child Prints"
-            src="/public/images/home/header_image_child.webp" />
+            src="/images/home/header_image_child.webp" />
       </div>
       <div class="lg:w-full">
         <div class="w-72 lg:w-56 mx-auto mt-14 lg:mt-0">
